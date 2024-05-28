@@ -1296,7 +1296,7 @@ body {
     }
     #contact-1441 .cs-contact-group {
       width: 100%;
-      max-width: 45.625rem;
+      max-width: 35.625rem;
       min-height: 31.25rem;
       /* 24px - 32px */
       padding: clamp(1.5rem, 2.5vw, 2rem);
