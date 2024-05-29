@@ -561,7 +561,7 @@ body {
     }
     #cs-navigation .cs-button-solid {
       font-size: 1rem;
-      font-weight: 700;
+      font-weight: 900;
       /* 46px - 56px */
       line-height: clamp(2.875em, 5.5vw, 3.5em);
       text-align: center;
@@ -582,8 +582,8 @@ body {
       content: "";
       width: 0%;
       height: 100%;
-      background: #000;
-      opacity: 1;
+      background: #ffffff;
+      opacity: 0.5;
       border-radius: 0.25rem;
       position: absolute;
       top: 0;
@@ -756,8 +756,8 @@ body {
     }
 
     #cta-1192 .cs-container {
-        width: 500%;
-        max-width: 135rem;
+        width: 110%;
+        max-width: 300rem;
         margin: auto;
         padding: var(--sectionPadding);
         /* 96px - 120px */
@@ -788,7 +788,7 @@ body {
         max-width: 17ch;
         /* 28px - 40px */
         margin: 0 0 clamp(1.75rem, 3vw, 2.5rem);
-        color: var(--bodyTextColor);
+        color: var(--headerColor);
     }
 
     #cta-1192 .cs-text {
@@ -796,7 +796,7 @@ body {
         font-size: clamp(1rem, 2.95vw, 2.25rem);
         line-height: 1.5em;
         text-align: inherit;
-        width: 100%;
+        width: 60rem;
         /* 464px - 622px */
         max-width: clamp(33rem, 60vw, 58.785rem);
         margin: 0 0 2.5rem 0;
@@ -853,15 +853,6 @@ body {
         width: 100%;
         height: auto;
         object-fit: contain;
-    }
-    #cta-1192 .cs-graphic {
-        width: 140vw;
-        height: auto;
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        z-index: -1;
-        transform: translateX(-60%) rotate(-10deg);
     }
 }
 /* Tablet - 768px */
@@ -926,7 +917,7 @@ body {
         width: 10vw;
     }
     #cta-1192 .cs-container {
-        padding-left: 12rem;
+        padding-left: 10rem;
         padding-right: 0;
     }
     #cta-1192 .cs-image {
@@ -1480,8 +1471,8 @@ body {
       display: block;
       height: 100%;
       width: 0%;
-      background: #1a1a1a;
-      opacity: 1;
+      background: #ffffff;
+      opacity: 0.5;
       top: 0;
       left: 0;
       z-index: -1;
